@@ -23,11 +23,10 @@ This backend is deployed using **Render**, and it's connected to **MongoDB Atlas
 
 ---
 
-## 📁 Folder Structure
-todo-backend/
-├── models/ # Mongoose schema for Todo
-├── routes/ # Express routes (todos.js)
-├── .env # Contains MongoDB URI (not committed)
-├── index.js # Main server file
-├── package.json
-└── README.md
+## 🚀 Getting Started Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/bhavanahh/todo-backend.git
+cd todo-backend
