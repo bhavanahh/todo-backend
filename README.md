@@ -30,3 +30,5 @@ This backend is deployed using **Render**, and it's connected to **MongoDB Atlas
 ```bash
 git clone https://github.com/bhavanahh/todo-backend.git
 cd todo-backend
+npm install
+node index.js
