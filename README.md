@@ -1,35 +1,33 @@
-# 💜 Purple To-Do App — A Full Stack MERN Application
+# 🛠️ To-Do App Backend (Express + MongoDB)
 
-This is a stylish and fully functional **To-Do List app** built using the **MERN stack** (MongoDB, Express, React, Node.js). It features a purple-themed user interface with the **Floreal font**, allowing users to add, edit, and delete tasks in real-time, with the data saved securely in MongoDB Atlas.
-
----
-
-## 🌐 Live Demo
-
-- 🔹 **Frontend (React on Vercel)**: [https://todo-frontend-brown-nine.vercel.app](https://todo-frontend-brown-nine.vercel.app)
-- 🔹 **Backend (Express + MongoDB on Render)**: [https://todo-backend-8zys.onrender.com](https://todo-backend-8zys.onrender.com)
+This is the **backend API** for the Purple To-Do App — a full-stack MERN (MongoDB, Express, React, Node.js) application. It handles creating, reading, updating, and deleting (CRUD) todos, and connects to a MongoDB Atlas database.
 
 ---
 
-## 📌 Features
+## 🌐 Live Backend URL
 
-- 📝 Add, Edit, and Delete tasks
-- 🔄 Real-time updates
-- 💾 Persistent storage in MongoDB Atlas
-- 💜 Stylish purple UI using Floreal font
-- ☁️ Fully deployed using Vercel & Render
+- 🔗 [https://todo-backend-8zys.onrender.com](https://todo-backend-8zys.onrender.com)
+
+This backend is deployed using **Render**, and it's connected to **MongoDB Atlas** for storing tasks.
 
 ---
 
-## 🚀 Technology Stack
+## 🧰 Technologies Used
 
-| Layer        | Technology Used              |
-|--------------|------------------------------|
-| Frontend     | React, CSS                   |
-| Backend      | Node.js, Express             |
-| Database     | MongoDB Atlas                |
-| Deployment   | Vercel (Frontend), Render (Backend) |
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- dotenv
+- CORS
 
 ---
 
-
+## 📁 Folder Structure
+todo-backend/
+├── models/ # Mongoose schema for Todo
+├── routes/ # Express routes (todos.js)
+├── .env # Contains MongoDB URI (not committed)
+├── index.js # Main server file
+├── package.json
+└── README.md
